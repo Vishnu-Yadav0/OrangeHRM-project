@@ -94,13 +94,13 @@ OrangeHRM-Project/
      Users unfamiliar with the displayed language may face difficulty navigating or logging in.
      Automated scripts that rely on English text (like menu items: "PIM", "Employee List", etc.) may fail with TimeoutException due to missing or translated elements.
      This affects both usability and test reliability.
+     
+   Root Cause (Suspected):
+    The application likely auto-selects the language based on browser locale, system preferences, or cached cookies — rather than strictly using geolocation.
    
-    Root Cause (Suspected):
-     The application likely auto-selects the language based on browser locale, system preferences, or cached cookies — rather than strictly using geolocation.
-   
-    Suggested Fix (For Developers/Maintainers):
-     Set English as the default language when accessed in India.
-     Add an option to persist language preferences using cookies or query parameters (e.g., ?lang=en).
+   Suggested Fix (For Developers/Maintainers):
+    Set English as the default language when accessed in India.
+    Add an option to persist language preferences using cookies or query parameters (e.g., ?lang=en).
 
-    Improvement:
+   Improvement:
      Disable the login button until both fields are filled in.
