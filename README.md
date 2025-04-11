@@ -12,11 +12,11 @@
 
 # 🧭 Project Structure
 OrangeHRM-Project/
-├── main.py                  # Script to execute the full automation flow
+├── main.py                
 └── pages/
-    ├── login_page.py        # LoginPage class handles login functionality
-    ├── dashboard_page.py    # DashboardPage class handles logout
-    └── pim_page.py          # PimPage class handles PIM actions (Add/Search Employees)
+    ├── login_page.py       
+    ├── dashboard_page.py    
+    └── pim_page.py          
 
 # 📜 What the Script Does
 # main.py
