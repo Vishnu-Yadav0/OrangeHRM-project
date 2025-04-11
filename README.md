@@ -11,14 +11,14 @@
   - WebDriver Manager
 
 # 🧭 Project Structure
-<pre> ```bash 
+<pre> 
  OrangeHRM-Project/ 
   ├── main.py 
   └── pages/ 
        ├── login_page.py
        ├── dashboard_page.py 
        └── pim_page.py 
- ``` </pre>      
+  </pre>      
 
 # 📜 What the Script Does
 # main.py
@@ -51,11 +51,11 @@
 
 ## LoginPage
  - Handles logging into the application:
- - login.login("Admin", "admin123")
+ - <pre> login.login("Admin", "admin123") </pre>
 
 ## DashboardPage
  - Handles logging out:
- - dashboard.logout()
+ - <pre> dashboard.logout() </pre>
 
 ## PimPage
  - Handles all PIM-related actions:
