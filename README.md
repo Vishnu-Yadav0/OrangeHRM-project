@@ -11,7 +11,14 @@
   - WebDriver Manager
 
 # 🧭 Project Structure
-<pre> ```bash OrangeHRM-Project/ ├── main.py └── pages/ ├── login_page.py ├── dashboard_page.py └── pim_page.py ``` </pre>      
+<pre> ```bash 
+ OrangeHRM-Project/ 
+  ├── main.py 
+  └── pages/ 
+       ├── login_page.py
+       ├── dashboard_page.py 
+       └── pim_page.py 
+ ``` </pre>      
 
 # 📜 What the Script Does
 # main.py
